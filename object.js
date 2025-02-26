@@ -7,6 +7,10 @@ const player = {
     present()
     {
         console.log("my name is "+this.nickname);
+    },
+    items: {
+        nome: "knife",
+        size: "20"
     }
 }
 
@@ -18,3 +22,4 @@ for (const prop in player)
 }
 
 player.present();
+console.log(player.items.nome);
